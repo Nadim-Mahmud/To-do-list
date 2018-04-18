@@ -1,9 +1,9 @@
 #include<fstream>
-void file(){
+int file(){
     std::ifstream input("data.txt",std::ios::in|std::ios::binary);
     if(!input){
-        std::cout<<"File is empty\n";
-        return;
+        std::cout<<"To do is empty\n";
+        return 0;
     }
     int i=0;
     while(input){
@@ -11,9 +11,10 @@ void file(){
         input>>task_list[i].dd>>task_list[i].mm>>task_list[i].yy;
     }
     input.close();
+    return i;
 }
 
-bool list::exit(){
+bool list::exit(int item){
     std::ofstream output("data.txt",std::ios::out|std::ios::binary);
     if(!output){
         std::cout<<"Error occred\n";
