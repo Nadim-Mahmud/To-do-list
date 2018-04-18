@@ -1,5 +1,5 @@
 #include<iostream>
-#include<list>
+#include "list.cpp"
 //#include<add>
 
 int main()

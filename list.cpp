@@ -1,8 +1,9 @@
 #include<iostream>
+#include "out.cpp"
 
 class list{
 public:
-    int dd,mm,yy,cn;
+    int dd,mm,yy;
     std::string task_name,description;
     bool add();
     list show(int task_no);
@@ -11,6 +12,6 @@ public:
 }task_list[1000];
 
 
+main(){
 
-
-main(){//dummy}
+}//dummy
