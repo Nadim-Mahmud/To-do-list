@@ -1,5 +1,4 @@
 #include<iostream>
-#include "out.cpp"
 
 class list{
 public:
@@ -10,11 +9,6 @@ public:
     bool delet(int task_no);
     bool exit();
 }task_list[1000];
-
-bool list::show(int n){
-    void show(task_list[n]);
-    return 1;
-}
 
 main(){
 
