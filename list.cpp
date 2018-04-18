@@ -6,11 +6,15 @@ public:
     int dd,mm,yy;
     std::string task_name,description;
     bool add();
-    list show(int task_no);
+    bool show(int task_no);
     bool delet(int task_no);
     bool exit();
 }task_list[1000];
 
+bool list::show(int n){
+    void show(task_list[n]);
+    return 1;
+}
 
 main(){
 
