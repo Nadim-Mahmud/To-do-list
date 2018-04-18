@@ -1,5 +1,4 @@
 #include<iostream>
-//#include<add>
 
 class list{
 public:
@@ -14,4 +13,4 @@ public:
 
 
 
-main(){}
+main(){//dummy}
