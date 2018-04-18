@@ -2,11 +2,11 @@
 #include "list.cpp"
 //#include "add.cpp"
 //#include "show.cpp"
-#include "delet.cpp"
-//#include<add>
+//#include "delet.cpp"
+#include "input.cpp"
 
 int main()
 {
-    task.delet(2);
+    //task.delet(2);
     return 0;
 }
