@@ -1,9 +1,9 @@
 #include<iostream>
 
 bool list::add(){
-    add_out(1);
+    std::cout<<"Ener task Name\n";
     std::cin>>task_name;
-    add_out(0);
+    std::cout<<"Enter date according to dd//mm//yy format\n";
     std::cin>>dd>>mm>>yy;
     return 1;
 }
