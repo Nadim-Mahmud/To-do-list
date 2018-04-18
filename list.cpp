@@ -8,8 +8,8 @@ public:
     bool show(int task_no);
     bool delet(int task_no);
     bool exit();
-}task_list[1000];
+}task_list[1005],task;
 
-main(){
-
-}//dummy
+//main(){
+//
+//}//dummy
