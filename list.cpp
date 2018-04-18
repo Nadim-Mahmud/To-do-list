@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-//#include<input>
+#include<input>
 
 class list{
 public:
