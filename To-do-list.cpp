@@ -17,23 +17,17 @@ int main(){
     while(true){
         main1();
         chk=1;
-        //getline.ignore();
         getline(std::cin,str);
-        //std::cout<<str<<"\n";
         if(str=="add"){
             chk = task.add(item);
         }
         else if(str=="delet"){
             ent();
-            std::cin>>n;
-            getchar();
-            chk = task.delet(n,item);
+            chk = task.delet(inp(),item);
         }
         else if(str=="show"){
             ent();
-            std::cin>>n;
-            getchar();
-            chk = task.show(n);
+            chk = task.show(inp());
         }
         else if(str=="exit"){
             chk = task.exit(item);

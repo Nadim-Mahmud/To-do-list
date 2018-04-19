@@ -9,3 +9,10 @@ void ent(){
 void error(){
     std::cout<<"Something is wrong!\n";
 }
+
+int inp(){
+    int no;
+    std::cin>>no;
+    getchar();
+    return no;
+}
