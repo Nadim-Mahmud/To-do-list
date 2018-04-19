@@ -5,5 +5,5 @@ bool list::delet(int task_no,int item){
             task_list[i] = task_list[i+1];
         }
     }
-    return 1;
+    return 0;
 }

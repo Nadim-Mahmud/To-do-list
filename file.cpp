@@ -3,7 +3,7 @@ int file(){
     std::ifstream input("data.txt",std::ios::in|std::ios::binary);
     if(!input){
         std::cout<<"To do is empty\n";
-        return 0;
+        return 1;
     }
     int i=0;
     while(input){
