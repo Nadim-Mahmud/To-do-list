@@ -1,4 +1,4 @@
-#include<iostream>
+
 class list{
 public:
     int dd,mm,yy;
