@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstdio>
 #include<cstring>
 #include "list.cpp"
 #include "show.cpp"
@@ -16,6 +17,7 @@ int main(){
     while(true){
         main1();
         chk=1;
+        //getline.ignore();
         getline(std::cin,str);
         //std::cout<<str<<"\n";
         if(str=="add"){
@@ -35,6 +37,7 @@ int main(){
         }
         else if(str=="exit"){
             chk = task.exit(item);
+            return 0;
         }
         if(chk){
             error();
